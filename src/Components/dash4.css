@@ -1,0 +1,155 @@
+/* Basic layout and styles */
+.page4-container {
+    display: flex;
+    width:100%;
+    height: 100vh;
+  }
+  
+  /* Sidebar */
+  .sidebar {
+    width: 20%;
+    height: 150%;
+    background-color: #5041BC;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 20px 0 0 20px;
+  }
+  
+  .logo {
+    text-align: center;
+  }
+  
+  .menu .item {
+    margin: 15px 0;
+    color: white;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .item i {
+    margin-right: 10px;
+  }
+  
+  .item2 .logo2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .logo2 img {
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  /* Main content */
+  .content {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 80%;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 20px 20px 20px 20px;
+  }
+  
+  h1 {
+    font-style: normal;
+    text-align: center;
+    color: black;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  h2 {
+    text-align: start;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  /* Victim summary section */
+  .victim-summary {
+    display: flex;
+    margin-top: 3%;
+    margin-bottom: 30px;
+  }
+  
+  /* Victim image */
+  .victim-img {
+    width: 20%;
+    padding: 5px;
+    height: 20%;
+    border-radius: 10px;
+    margin-right: 20px;
+    object-fit: cover;
+  }
+  
+  /* Victim text summary */
+  .summary-text {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .victim-details {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .victim-details p {
+    color: rgb(13, 13, 151);
+    margin-right: 20px;
+    font-size: 16px;
+  }
+  
+  .role {
+    margin-left: 5px;
+  }
+  
+  .details-info {
+    margin-left: 5px;
+  }
+  
+  .description {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  /* Cards section */
+  .cards-section {
+    display: flex;
+    gap: 20px;
+    padding: 7.5px;
+    width:100%;
+  }
+  
+  .card {
+    background-color: #e0e0e0;
+    padding: 15px;
+    text-align: start;
+    border-radius: 10px;
+    width: 50%;
+    height: 50%;
+  }
+  
+  .card-header {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .calender{
+    align-items: baseline;
+  }
+  .edit-icon {
+    color: #5041BC;
+    cursor: pointer;
+  }
+  
+  .testimony-text {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  

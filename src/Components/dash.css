@@ -1,0 +1,155 @@
+.dashboard-container {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  background-color: #f4f4f4;
+}
+
+.menu {
+  margin-top: 20px;
+}
+
+.menu .item {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.menu .item2{
+ margin-top: 70%;
+ padding: 10px;
+ margin-left: 20px;
+}
+
+.menu .item:hover {
+  background-color: #6243a9;
+}
+
+.main-content {
+  flex: 1;
+  padding: 20px;
+  background-color: #f4f4f4;
+  font-family: 'Arial', sans-serif;
+  border-radius: 5%;
+  border-top-right-radius: 5%;
+  border-bottom-right-radius: 5%;
+}
+
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.header h1 {
+  font-size: 24px;
+}
+
+.search-bar {
+  width: 40%;
+  margin-left: 15%;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-radius: 20px;
+  padding: 5px 10px;
+}
+
+.search-bar input {
+  border: none;
+  outline: none;
+  padding: 5px;
+  font-family: 'Arial', sans-serif;
+}
+
+.search-bar i {
+  color: #5041BC;
+  margin-left: 40%;
+  cursor: pointer;
+}
+.edit{
+  width: 20%;
+  height: 30%;
+  margin-right: 10%;
+}
+.btn {
+  background-color: #5041BC;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.btn2{
+  background-color: #5041BC;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  margin-top: 10px;
+  border-radius: 5px;
+  margin-right: 72%;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #512DA8;
+}
+
+.cases-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.case {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.case-title{
+  font-weight: bolder;
+}
+
+.case-id, .case-date, .case-category, .case-location {
+  color: grey;
+}
+
+.case-status {
+  color: rgb(16, 161, 16);
+}
+
+.total-cases {
+  margin-top: 40px;
+  margin-left: 5%;
+  padding: 10px;
+  width:17%;
+  height: 23%;
+  border-radius: 10px;
+  border-color: grey;
+  background-color: white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.total-cases-title{
+  padding: 5%;
+  color:gray;
+}
+
+.total-cases-count {
+  font-size: 24px;
+  padding-top: 5%;
+  padding-left: 40%;
+  font-weight: bold;
+}
+

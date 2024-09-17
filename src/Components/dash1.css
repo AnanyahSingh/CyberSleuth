@@ -1,0 +1,139 @@
+.page1-container {
+  display: flex;
+  height: 100vh;
+  border-radius: 15px; /* Curved corners for the entire layout */
+}
+
+.sidebar {
+  width: 20%;
+  background-color: #5041BC;
+  color: white;
+  padding: 20px;
+  border-top-left-radius: 15px; /* Curved top left corner */
+  border-bottom-left-radius: 15px; /* Curved bottom left corner */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.logo, .user-info {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.logo-img {
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+}
+.menu {
+  margin-top: 20px;
+}
+
+.menu .item {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.menu .item2{
+ margin-top: 70%;
+ padding: 10px;
+ margin-left: 20px;
+}
+
+.menu .item:hover {
+  background-color: #6243a9;
+}
+
+.user-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.user-img {
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+}
+
+/* Content Section */
+.content {
+  width: 80%;
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-top-right-radius: 15px; /* Curved top right corner */
+  border-bottom-right-radius: 15px; /* Curved bottom right corner */
+}
+
+.header {
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.icon {
+  font-size: 24px;
+  color: #5041BC;
+}
+
+.cross{
+  margin-left: 2%;
+}
+.save{
+  margin-right: 2%;
+}
+
+.case-form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-row {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.form-input{
+  width: 40%;
+  padding: 3px;
+}
+.form-select{
+  padding: 3px;
+  width:42.25%;
+}
+.form-input, .form-select, .form-textarea {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.upload-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.upload-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 25%;
+  margin-top: -14%;
+  margin-left: 40%;
+  height: 120px;
+  background-color: #ececec;
+  border-radius: 12px;
+  border: 2px dashed #ccc;
+  text-align: center;
+}
+
+.form-textarea {
+  height: 200px;
+}
