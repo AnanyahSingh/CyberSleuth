@@ -1,0 +1,47 @@
+POST http://localhost:3000/createevidence
+Content-Type: application/json
+
+{
+    "caseId": "4HH4D4",
+    "evidenceId": "evidence_002",
+    "AiRanking": "10",
+    "testimonial": "Two men came from the back and stabbed the victim",
+    "images": [
+        "https://firebasestorage.googleapis.com/v0/b/logiclords-digital-forensic.appspot.com/o/images%2FKnife4.png?alt=media&token=68ad5891-5640-4a5b-bcf4-b47c82c17764"
+    ],
+    "affiliationToCase": "bypasser",
+    "extraNotes": "The witness, Sophy Vergara, was an incidental passerby who reported seeing two men fleeing the scene shortly after the victim was attacked. The knife found at the scene matches the description of the weapon used in the stabbing. The witness's account aligns with the evidence recovered from the crime scene.",
+    "AiAnalysis": "Knife, Blood, Fingerprints",
+    "witnessName": "Sophy Vergara"
+}
+
+
+
+POST http://localhost:3000/createCase
+Content-Type: application/json
+
+{
+    "caseId": "4HH4C2",
+    "caseCategory": "Homicide",
+    "caseDescription": "Knife was found lying at the scene",
+    "location": "parking lot",
+    "caseEvidences": ["124", "456"],
+    "caseCoverPhoto": {
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/logiclords-digital-forensic.appspot.com/o/images%2Fmurder%20rohit.png?alt=media&token=0b94e78b-9708-4752-ae24-ed7f0e624717"
+    },
+    "leadDetective": "Detective Frank",
+    "status": "Active",
+    "suspectId": "123",
+    "caseTitle": "Murder of Rohit Kumar"
+}
+
+
+
+# //Sample Post Request With UserId To Trigger Notification After Messaging A User
+# POST http://localhost:3000/send-message-notification
+# Content-Type: application/json
+
+# {
+#     "userId": "66cb916c126c6c7a9b7b7e62",
+#     "content": "We heard your worry, we will get back to you shortly"
+# }
