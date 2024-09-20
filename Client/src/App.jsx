@@ -7,7 +7,7 @@ import PageOne from "./Components/PageOne.jsx";
 import PageTwo from "./Components/PageTwo.jsx";
 import PageThree from "./Components/PageThree.jsx";
 import PageFour from "./Components/PageFour.jsx";
-import PageFive from "./Components/PageFive.jsx"
+import PageFive from "./Components/PageFive.jsx";
 import PageSix from "./Components/PageSeven.jsx";
 import { Layout } from "./routes/Layout.jsx";
 import { OverviewLayout } from "./routes/OverviewLayout.jsx";
@@ -29,24 +29,24 @@ const router = createBrowserRouter([
         path: "/newCases",
         element: <PageOne />,
       },
-      
     ],
   },
   {
     path: "overview",
     element: <OverviewLayout />,
     children: [
-            {
+      {
         index: true,
+        path: ":caseId",
         element: <PageTwo />,
       },
       {
         path: "newevidence",
         element: <PageThree />,
       },
-            {
+      {
         path: "timeline",
-        element: <PageFour />
+        element: <PageFour />,
       },
       {
         path: "ReportAnalytics",
@@ -56,9 +56,8 @@ const router = createBrowserRouter([
         path: "NewSuspect",
         element: <PageSix />,
       },
-
-    ]
-  }
+    ],
+  },
   // {
   //   // path: "/overview",
   //   // element: <OverviewLayout />,
@@ -67,32 +66,29 @@ const router = createBrowserRouter([
   //   //     index: true,
   //   //     element: <div>Test</div>,
   //   //   },
-      // {
-      //   path: "/PageTwo",
-      //   element: <PageTwo />,
-      // },
-      
-      // {
-      //   path: "/PageThree",
-      //   element: <PageThree />,
-      // },
-      // {
-      //   path: "/PageFour",
-      //   element: <PageFour />,
-      // },
-      // {
-      //   path: "/PageFive",
-      //   element: <PageFive />,
-      // },
-      // {
-      //   path: "/PageSix",
-      //   element: <PageSix />,
-      // },
+  // {
+  //   path: "/PageTwo",
+  //   element: <PageTwo />,
+  // },
+
+  // {
+  //   path: "/PageThree",
+  //   element: <PageThree />,
+  // },
+  // {
+  //   path: "/PageFour",
+  //   element: <PageFour />,
+  // },
+  // {
+  //   path: "/PageFive",
+  //   element: <PageFive />,
+  // },
+  // {
+  //   path: "/PageSix",
+  //   element: <PageSix />,
+  // },
   //   ]
   // },
-  
-  
-
 ]);
 
 function App() {

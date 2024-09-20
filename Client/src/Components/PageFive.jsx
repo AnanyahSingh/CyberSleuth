@@ -18,7 +18,7 @@ function PageFive() {
             className="victim-img"
           />
           <div className="summary-text">
-            <h2>Murder of Rohit Kumar</h2>
+            <h2>Murder of Rohit Kumarrrrrrrr</h2>
 
             <p className="description">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa,
@@ -56,22 +56,32 @@ function PageFive() {
         {/* Overview/Case Summary */}
         <h3 className="section-heading">Overview/Case Summary</h3>
         <p className="section-text">
-          This case involves the mysterious murder of Rohit Kumar. The case is under investigation by Detective Ajay Kumar. The timeline of events and evidence are detailed below.
+          This case involves the mysterious murder of Rohit Kumar. The case is
+          under investigation by Detective Ajay Kumar. The timeline of events
+          and evidence are detailed below.
         </p>
 
         {/* Objectives and Evidence Analyzed */}
         <h3 className="section-heading">Objectives</h3>
         <p className="section-text">
-          The objective is to analyze the forensic evidence related to the crime scene, identify potential suspects, and provide a detailed report for further legal proceedings.
+          The objective is to analyze the forensic evidence related to the crime
+          scene, identify potential suspects, and provide a detailed report for
+          further legal proceedings.
         </p>
         <h3 className="section-heading">Evidence Analyzed</h3>
         <p className="section-text">
-          The evidence collected includes fingerprints, blood samples, and CCTV footage from nearby locations. This data will help identify the culprit and reconstruct the crime scene.
+          The evidence collected includes fingerprints, blood samples, and CCTV
+          footage from nearby locations. This data will help identify the
+          culprit and reconstruct the crime scene.
         </p>
 
         {/* Footer Links and Information */}
         <div className="footer-info">
-          <a href="https://www.cybersleuthslab.org" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://www.cybersleuthslab.org"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             https://www.cybersleuthslab.org
           </a>
           <p>192.168.100.10</p>
@@ -80,7 +90,9 @@ function PageFive() {
 
         {/* Download Button */}
         <div className="download-btn-container">
-          <button onClick={handleDownload} className="download-btn">Download Report</button>
+          <button onClick={handleDownload} className="download-btn">
+            Download Report
+          </button>
         </div>
       </main>
     </div>
